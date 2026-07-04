@@ -20,7 +20,7 @@ uv run chapters/ch00_environment/code/check_env.py   # 环境体检
 ### 第一篇 · PyTorch 核心
 - [x] [第 2 章 · 张量的本质：storage/stride/广播/内存布局](chapters/ch02_tensor/README.md)
 - [x] [第 3 章 · Autograd 解剖](chapters/ch03_autograd/README.md)
-- [ ] 第 4 章 · nn.Module 体系
+- [x] [第 4 章 · nn.Module 体系](chapters/ch04_nn_module/README.md)
 - [ ] 第 5 章 · 数据管线
 - [ ] 第 6 章 · 训练循环完全解剖
 
