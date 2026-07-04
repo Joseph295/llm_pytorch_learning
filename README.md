@@ -15,7 +15,7 @@ uv run chapters/ch00_environment/code/check_env.py   # 环境体检
 
 ### 第〇篇 · 起步
 - [x] [第 0 章 · 环境与工具链](chapters/ch00_environment/README.md)
-- [ ] 第 1 章 · 写给 JVM 工程师的 Python 速成
+- [x] [第 1 章 · 写给 JVM 工程师的 Python 速成](chapters/ch01_python_for_jvm/README.md)
 
 ### 第一篇 · PyTorch 核心
 - [ ] 第 2 章 · 张量的本质：storage/stride/广播/内存布局
