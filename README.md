@@ -18,7 +18,7 @@ uv run chapters/ch00_environment/code/check_env.py   # 环境体检
 - [x] [第 1 章 · 写给 JVM 工程师的 Python 速成](chapters/ch01_python_for_jvm/README.md)
 
 ### 第一篇 · PyTorch 核心
-- [ ] 第 2 章 · 张量的本质：storage/stride/广播/内存布局
+- [x] [第 2 章 · 张量的本质：storage/stride/广播/内存布局](chapters/ch02_tensor/README.md)
 - [ ] 第 3 章 · Autograd 解剖
 - [ ] 第 4 章 · nn.Module 体系
 - [ ] 第 5 章 · 数据管线
