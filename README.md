@@ -26,7 +26,7 @@ uv run chapters/ch00_environment/code/check_env.py   # 环境体检
 
 ### 第二篇 · Transformer 与 LLM 构建
 - [x] [第 7 章 · 注意力机制从零推导](chapters/ch07_attention/README.md)
-- [ ] 第 8 章 · 完整 Transformer 实现
+- [x] [第 8 章 · 完整 Transformer 实现](chapters/ch08_transformer/README.md)
 - [ ] 第 9 章 · 🏆 里程碑一：从零预训练 miniGPT
 - [ ] 第 10 章 · 现代 LLM 架构演进（LLaMA/Qwen/MoE）
 
