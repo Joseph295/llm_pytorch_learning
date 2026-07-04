@@ -26,10 +26,11 @@ uv run projects/minigpt/generate.py --prompt 话说 # ④ 续写
 ~12M 参数：`L=6, d=384, H=6, block_size=256, vocab=4096`。语料《红楼梦》（Gutenberg 公版）。
 改配置直接编辑 `train.py` 里的 `GPTConfig`。改 `vocab` 需重跑 `prepare_data`；改 `block_size` 不需要。
 
-## 实测基线（M4 / 24GB）
+## 实测基线（M4 / 24GB，已验证）
 
 - 数据准备：BPE 训练 ~6 分钟（一次性缓存）+ 分块 encode ~14 秒
-- 训练：3000 步约 15 分钟，loss 从 8.4（≈ln 4096）降至 ~3.x
-- 生成：60 步已能出成词与标点，3000 步出文白短句
+- 训练：3000 步约 15 分钟，loss 从 8.41（≈ln 4096）降至 train 3.8 / 最优 val 6.34
+- 稳定配置：**β₂=0.999**（0.95 会致 loss spike，见第 9 章排查）+ best-checkpoint
+- 生成：真实输出含 黛玉/襲人/探春/怡紅院 等人名地名 + 对话结构，文白腔调清晰
 
 > `data/` 已 git 忽略（含权重与语料）。克隆后重跑 `prepare_data.py` 重建。
